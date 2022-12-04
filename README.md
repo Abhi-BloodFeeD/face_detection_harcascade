@@ -2,7 +2,7 @@
 
 ### USING HAAR CASCADE ALGORITHM
 
-* Haar cascade is an algorithm that can detect objects in images, irrespective of their scale in image and location.
+- Haar cascade is an algorithm that can detect objects in images, irrespective of their scale in image and location.
 
 Following Code creates a cascade classifier based on pre-prepared dataset input
 
@@ -13,7 +13,7 @@ training_face_data = cv2.CascadeClassifier(
 'haarcascade_frontalface_default.xml')
 ```
 
-* Library Used -
+- Library Used -
 
 OpenCV
 
