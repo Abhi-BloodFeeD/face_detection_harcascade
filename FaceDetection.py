@@ -3,7 +3,7 @@ import cv2
 training_face_data = cv2.CascadeClassifier(
     'haarcascade_frontalface_default.xml')
 
-# img = c v2.imread('im1.webp')
+# img = cv2.imread('im1.webp')
 webcam = cv2.VideoCapture(0)
 while True:
     successfull_fame, frame = webcam.read()
